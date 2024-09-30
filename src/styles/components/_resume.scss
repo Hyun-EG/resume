@@ -1,0 +1,142 @@
+li {
+  text-indent: -1.22vw;
+  padding-left: 1.04vw;
+  line-height: 1.3;
+}
+
+li::marker {
+  color: rgb(79, 205, 255);
+}
+
+a {
+  text-decoration: none;
+  color: #bebebe;
+}
+
+.colored-dot {
+  color: rgb(79, 205, 255);
+}
+
+.resume {
+  &__container {
+    width: 83.33vw;
+    margin-top: 2.08vh;
+
+    &__header {
+      @include flex(between, center);
+      padding: 0 15.63vw;
+
+      &__title {
+        font-size: 4.17vw;
+        font-weight: bold;
+        line-height: 1.2;
+      }
+      &__imgBox {
+        border-radius: 0.63vw;
+        overflow: hidden;
+        &_img {
+          height: 15vw;
+        }
+      }
+    }
+
+    &__content {
+      @include column-flex(center, start);
+      padding: 2.08vh 15.63vw 0 15.63vw;
+      font-size: 1.3vw;
+      font-weight: bold;
+      line-height: 1.2;
+    }
+
+    &__main {
+      padding: 2.08vh 15.63vw 0 15.63vw;
+
+      &__box {
+        margin-top: 5.21vh;
+        &__title {
+          font-size: 2.6vw;
+          font-weight: bold;
+        }
+
+        &__project {
+          @include flex(between, start);
+          margin-top: 1.56vh;
+          padding: 1.56vh 0 1.04vh 0;
+          border-bottom: 1px solid #bebebe;
+
+          &_title {
+            @include column-flex(center, start);
+            font-size: 2.08vw;
+            font-weight: bold;
+
+            &_comment {
+              padding: 0 0.52vw;
+              font-size: 1.04vw;
+              color: #bebebe;
+            }
+
+            &_link {
+              padding-top: 0.52vh;
+              font-size: 1.3vw;
+              text-decoration: none;
+
+              &_git {
+                color: #bebebe;
+                font-size: 0.78vw;
+              }
+            }
+          }
+
+          &_content {
+            @include column-flex(center, start);
+            width: 20.83vw;
+            font-size: 0.94vw;
+            font-weight: bold;
+            white-space: pre-line;
+
+            &_skillList {
+              @include flex;
+              gap: 2vw;
+              font-size: 1vw;
+              font-weight: bold;
+              line-height: 1.4;
+            }
+
+            &_description {
+              padding: 2.6vh 0;
+              line-height: 1.4;
+              font-size: 1.3vw;
+
+              &_list {
+                margin-top: 0.52vh;
+                font-size: 0.83vw;
+                line-height: 1.4;
+              }
+            }
+
+            &_toDo {
+              padding: 0.52vh 0;
+              line-height: 1.4;
+              font-size: 1.3vw;
+
+              &_list {
+                margin-top: 0.52vh;
+                font-size: 0.83vw;
+
+                &_ln {
+                  margin-bottom: 0.52vh;
+                }
+              }
+            }
+
+            &_stack {
+              padding: 0.52vh 0;
+              line-height: 1.4;
+              font-size: 1.3vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}
