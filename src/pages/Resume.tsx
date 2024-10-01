@@ -21,48 +21,19 @@ const Resume = () => {
           </div>
         </div>
         <div className="resume__container__content">
-          <p>리액트 기반의 프로젝트를 진행하고,</p>
-          <p>각 과정의 팀원분들과 협업을 하며,</p>
-          <p>경험과, 성장의 반복을 중시하고 있습니다.</p>
+          <p>제작한 웹의 가치를 타인이 알아주는것에 성취감을 느낍니다.</p>
+          <p>사용자의 경험을 느끼고, 보여줄 수 있는 직관적인 분야를 찾았고,</p>
+          <p>
+            지금의 엔지니어링중 가장 앞단에서 임할 수 있는 FE개발자가
+            되었습니다.
+          </p>
         </div>
+
         <div className="resume__container__main">
           <div className="resume__container__main__box">
             <div className="resume__container__main__box__title">
               Project Experience
               <span className="colored-dot">.</span>
-            </div>
-            <div className="resume__container__main__box__project">
-              <div className="resume__container__main__box__project_title">
-                <div>
-                  포토캡슐
-                  <span className="resume__container__main__box__project_title_comment">
-                    (여행기록사이트)
-                  </span>
-                </div>
-              </div>
-              <div className="resume__container__main__box__project_content">
-                <span>2024.09.28 - 진행 중</span>
-                <div className="resume__container__main__box__project_content_description">
-                  <span>
-                    Description<span className="colored-dot">.</span>
-                  </span>
-                  <div className="resume__container__main__box__project_content_description_list">
-                    여행을 다녀간 곳을 피드로 남기고, 지역별로 지도를 조각내어,
-                    해당 지역을 사진으로 채우고, 여행 기록을 남길 수 있습니다.
-                    <p>해당 프로젝트는 학습 및 개발 동시 진행중입니다.</p>
-                  </div>
-                </div>
-                <div className="resume__container__main__box__project_content_toDo"></div>
-                <div className="resume__container__main__box__project_content_stack">
-                  <span>Tech Stack</span>
-                  <span className="colored-dot">.</span>
-                  <div className="resume__container__main__box__project_content_toDo_list">
-                    <p className="resume__container__main__box__project_content_toDo_list_ln">
-                      ReactNative TypeScript Node.js Express MongoDB AWS
-                    </p>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
           <div className="resume__container__main__box__project">
@@ -196,161 +167,6 @@ const Resume = () => {
               </div>
             </div>
           </div>
-          <div className="resume__container__main__box__project">
-            <div className="resume__container__main__box__project_title">
-              <div>
-                Devtube
-                <span className="resume__container__main__box__project_title_comment">
-                  (유튜브 크리에이터 스튜디오 플랫폼)
-                </span>
-              </div>
-              <a
-                className="resume__container__main__box__project_title_link"
-                href="https://github.com/Hyun-EG/TP-devtube"
-                target="blank"
-              >
-                Github
-                <span className="resume__container__main__box__project_title_link_git">
-                  (https://github.com/Hyun-EG/TP-devtube)
-                </span>
-              </a>
-            </div>
-            <div className="resume__container__main__box__project_content">
-              <span>2024.05.27 ~ 2024.06.09</span>
-              <div className="resume__container__main__box__project_content_description">
-                <span>
-                  Description<span className="colored-dot">.</span>
-                </span>
-                <div className="resume__container__main__box__project_content_description_list">
-                  유튜브 크리에이터를 위한 사이트로 캘린더로 일정을 조율할 수
-                  있으며, 급여내역 확인 및 정정신청을 할 수 있습니다.
-                </div>
-              </div>
-              <div className="resume__container__main__box__project_content_toDo">
-                <span>
-                  Key Contributions<span className="colored-dot">.</span>
-                </span>
-                <div className="resume__container__main__box__project_content_toDo_list">
-                  <li className="resume__container__main__box__project_content_toDo_list_ln">
-                    유효성 검사를 통해 회원가입 및 로그인, ID/PW 찾기 기능을
-                    구현
-                  </li>
-                  <li className="resume__container__main__box__project_content_toDo_list_ln">
-                    사용자 경험을 고려해, vw와 vh 단위로 반응형 웹으로 최적화
-                  </li>
-                  <li className="resume__container__main__box__project_content_toDo_list_ln">
-                    각 액션에 모달창을 적용해 사용자에게 명확한 상황 인지를 제공
-                  </li>
-                  <li className="resume__container__main__box__project_content_toDo_list_ln">
-                    대시보드에 기존 캘린더페이지 이외에 주간캘린더를 추가하여
-                    사용자의 편의성을 높였습니다.
-                  </li>
-                </div>
-              </div>
-              <div className="resume__container__main__box__project_content_stack">
-                <span>Tech Stack</span>
-                <span className="colored-dot">.</span>
-                <div className="resume__container__main__box__project_content_toDo_list">
-                  <p className="resume__container__main__box__project_content_toDo_list_ln">
-                    React Sass Firebase Redux
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="resume__container__main__box__project">
-            <div className="resume__container__main__box__project_title">
-              <div>
-                패스트캠퍼스 인트라넷
-                <span className="resume__container__main__box__project_title_comment">
-                  (출결관리사이트)
-                </span>
-              </div>
-              <a
-                className="resume__container__main__box__project_title_link"
-                href="https://github.com/Hyun-EG/TP-fastcampus-intranet"
-                target="blank"
-              >
-                Github
-                <span className="resume__container__main__box__project_title_link_git">
-                  (https://github.com/Hyun-EG/TP-fastcampus-intranet)
-                </span>
-              </a>
-            </div>
-            <div className="resume__container__main__box__project_content">
-              <span>2024.04.08 ~ 2024.04.21</span>
-              <div className="resume__container__main__box__project_content_description">
-                <span>
-                  Description<span className="colored-dot">.</span>
-                </span>
-                <div className="resume__container__main__box__project_content_description_list">
-                  패스트캠퍼스 수강생들이 이용할 수 있는 출결관리사이트입니다.
-                  기존에 사용하는 출결 앱이 에러가 많고 출결하는 과정이
-                  복잡하여, 개선되기를 소망하는 바를 토이프로젝트로
-                  만들었습니다. 추가로 갤러리페이지를 통해 교육포스터에 접근할
-                  수 있고, 패스트캠퍼스 공지사항을 확인할 수 있습니다.
-                </div>
-              </div>
-              <div className="resume__container__main__box__project_content_toDo">
-                <span>
-                  Key Contributions<span className="colored-dot">.</span>
-                </span>
-                <div className="resume__container__main__box__project_content_toDo_list">
-                  <li className="resume__container__main__box__project_content_toDo_list_ln">
-                    사용자 경험을 고려하여, 반응형 웹으로 구현
-                  </li>
-                  <li className="resume__container__main__box__project_content_toDo_list_ln">
-                    휴가 신청 및 출결 정정 게시판을 통해 사용자의 편의성을
-                    올렸습니다.
-                  </li>
-                  <li className="resume__container__main__box__project_content_toDo_list_ln">
-                    휴가 관련 필터링 기능을 추가하여 UX 개선
-                  </li>
-                  <li className="resume__container__main__box__project_content_toDo_list_ln">
-                    페이지네이션 도입해 UX 개선
-                  </li>
-                </div>
-              </div>
-              <div className="resume__container__main__box__project_content_stack">
-                <span>Tech Stack</span>
-                <span className="colored-dot">.</span>
-                <div className="resume__container__main__box__project_content_toDo_list">
-                  <p className="resume__container__main__box__project_content_toDo_list_ln">
-                    React Sass Firebase
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="resume__container__main__box">
-            <div
-              className="resume__container__main__box__title"
-              style={{ fontSize: "2vw" }}
-            >
-              Communication
-              <span className="colored-dot">.</span>
-            </div>
-            <div className="resume__container__main__box__project">
-              <div className="resume__container__main__box__project_content">
-                <div className="resume__container__main__box__project_content_skillList">
-                  <div
-                    style={{
-                      width: "50vw",
-                      fontSize: "1vw",
-                      fontWeight: "400",
-                      marginBottom: "3vh",
-                    }}
-                  >
-                    프로젝트의 퀄리티와 속도는 팀워크에서 나온다고 믿고
-                    있습니다. 생각나는 아이디어와, 의견은 적극적으로 표현합니다.
-                    감정에 치우치지 않고 팀원들에게 항상 진정되고 일관된 모습을
-                    보이려고 노력합니다. 포지션별로 다른점은 분명할테니
-                    존중하며, 트러블 발생 시 지혜롭게 해결하려고 노력합니다.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
           <div className="resume__container__main__box">
             <div
               className="resume__container__main__box__title"
@@ -369,7 +185,7 @@ const Resume = () => {
                       marginBottom: "3vh",
                     }}
                   >
-                    HTML CSS JavaScript TypeScript React
+                    HTML CSS JavaScript TypeScript React Redux tailwind Vite
                   </div>
                 </div>
               </div>
@@ -380,8 +196,7 @@ const Resume = () => {
               className="resume__container__main__box__title"
               style={{ fontSize: "2vw" }}
             >
-              Seoil University
-              <span className="colored-dot">.</span>
+              Education <span className="colored-dot">.</span>
             </div>
             <div className="resume__container__main__box__project">
               <div className="resume__container__main__box__project_content">
